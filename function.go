@@ -9,41 +9,41 @@ import (
 )
 
 func main() {
-	// res := average([5]float64{1, 2, 3, 4, 5})
-	// fmt.Println(res)
+	res := average([5]float64{1, 2, 3, 4, 5})
+	fmt.Println(res)
 
-	// fmt.Println(retun_many())
+	fmt.Println(retun_many())
 
-	// fmt.Println(many_ints(1, 2, 3, 4))
+	fmt.Println(many_ints(1, 2, 3, 4))
 
-	// fmt.Println(any_argv(5, 2, 3, 4))
+	fmt.Println(any_argv(5, 2, 3, 4))
 
-	// counter := Counter()
-	// fmt.Println(counter(10))
-	// fmt.Println(counter(11))
+	counter := Counter()
+	fmt.Println(counter(10))
+	fmt.Println(counter(11))
 
-	// fmt.Println(factorial(4))
-	// test_read_file()
-	// test_defer()
-	// test_recover()
-	// fmt.Println(task1([]uint{1, 2, 3, 4}))
-
-	// ===========================
-	// fmt.Println(task2(1))
-	// fmt.Println(task2(2))
-	// fmt.Println(task2(4))
-	// fmt.Println(task2(10))
-	// fmt.Println(task2(13))
-	// ===========================
-
-	// fmt.Println(search_min(100, 2, 3, 4, 5, -1))
+	fmt.Println(factorial(4))
+	test_read_file()
+	test_defer()
+	test_recover()
+	fmt.Println(task1([]uint{1, 2, 3, 4}))
 
 	// ===========================
-	// oddGenerator := makeOddGenerator()
-	// fmt.Println(oddGenerator())
-	// fmt.Println(oddGenerator())
-	// fmt.Println(oddGenerator())
-	// fmt.Println(oddGenerator())
+	fmt.Println(task2(1))
+	fmt.Println(task2(2))
+	fmt.Println(task2(4))
+	fmt.Println(task2(10))
+	fmt.Println(task2(13))
+	// ===========================
+
+	fmt.Println(search_min(100, 2, 3, 4, 5, -1))
+
+	// ===========================
+	oddGenerator := makeOddGenerator()
+	fmt.Println(oddGenerator())
+	fmt.Println(oddGenerator())
+	fmt.Println(oddGenerator())
+	fmt.Println(oddGenerator())
 	// ===========================
 }
 
